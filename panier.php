@@ -147,7 +147,7 @@ $total = 0;
                         <td><?php echo $item['quantite']; ?></td>
                         <td class="prix"><?php echo number_format($sous_total, 0, ',', ' '); ?> FCFA</td>
                         <td>
-                            <a href="supprimer_panier.php?id=<?php echo $item['id_panier']; ?>" class="btn-supprimer">Supprimer</a>
+                            <a href="supprimer_panier.php?id=<?php echo $item['id_article']; ?>" class="btn-supprimer">Supprimer</a>
                         </td>
                     </tr>
                     <?php endwhile; ?>
